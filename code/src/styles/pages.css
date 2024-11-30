@@ -1,0 +1,98 @@
+/* Common styles for all pages */
+.bentolio {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #FFE4E4;
+}
+
+/* Projects Page */
+.PROJECT-GRID {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  padding: 24px;
+}
+
+.project-card {
+  background: #FFE4E4;
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  background: #FFD4D4;
+  transform: translateY(-4px);
+}
+
+/* About Page */
+.ABOUT-GRID {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  padding: 24px;
+}
+
+.PORTRAIT-LARGE {
+  grid-column: span 6;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.BIO {
+  grid-column: span 6;
+  background: #FFE4E4;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+/* Contact Page */
+.CONTACT-GRID {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  padding: 24px;
+}
+
+.CONTACT-FORM {
+  grid-column: span 6;
+  background: #FFE4E4;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+/* Common hover effects */
+.project-card, .BIO, .SKILLS, .ACHIEVEMENTS, .CONTACT-FORM, .CONTACT-INFO, .SOCIAL-LINKS {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-card:hover, .BIO:hover, .SKILLS:hover, .ACHIEVEMENTS:hover, .CONTACT-FORM:hover, .CONTACT-INFO:hover, .SOCIAL-LINKS:hover {
+  background-color: #FFD4D4;
+  transform: translateY(-4px);
+}
+
+/* Form styles */
+.CONTACT-FORM input,
+.CONTACT-FORM textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  background: white;
+}
+
+.CONTACT-FORM button {
+  background: black;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.CONTACT-FORM button:hover {
+  opacity: 0.8;
+} 

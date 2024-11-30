@@ -1,0 +1,644 @@
+.bentolio {
+    background-color: #FFF5F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bentolio .div {
+    background-color: var(--collection-1-background);
+    min-height: 100vh;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .bentolio .SOCIALS {
+    background-color: var(--collection-1-primary);
+    border-radius: var(--collection-1-rounded);
+    height: 101px;
+    left: 968px;
+    overflow: hidden;
+    position: absolute;
+    top: 899px;
+    width: 448px;
+  }
+  
+  .bentolio .LINKS {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 57px;
+    position: relative;
+    top: 45px;
+    width: 334px;
+  }
+  
+  .bentolio .text-wrapper {
+    color: var(--collection-1-text);
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    text-align: left;
+  }
+  
+  .bentolio .CONTACT {
+    background-color: var(--collection-1-secondary);
+    border-radius: var(--collection-1-rounded);
+    height: 351px;
+    left: 496px;
+    overflow: hidden;
+    position: absolute;
+    top: 649px;
+    width: 448px;
+  }
+  
+  .bentolio .text-wrapper-2 {
+    color: var(--collection-1-text);
+    font-family: "Gilroy-Medium", Helvetica;
+    font-size: 55px;
+    font-weight: 500;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 258px;
+    white-space: nowrap;
+  }
+  
+  .bentolio .TOP-BAR {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    left: 24px;
+    position: absolute;
+    top: 30px;
+    width: 400px;
+  }
+  
+  .bentolio .have-some-questions {
+    color: var(--collection-1-text);
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .bentolio .ARROW {
+    height: 38px;
+    position: relative;
+    width: 38px;
+  }
+  
+  .bentolio .ABOUT {
+    background-color: var(--collection-1-primary);
+    border-radius: var(--collection-1-rounded);
+    height: 351px;
+    left: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 649px;
+    width: 448px;
+    text-align: left;
+  }
+  
+  .bentolio .ABOUT .text-wrapper {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bentolio .ABOUT .p {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  
+  .bentolio .p {
+    color: var(--collection-1-text);
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 25px;
+    position: absolute;
+    top: 80px;
+    width: 296px;
+    text-align: left;
+  }
+  
+  .bentolio .CIRCLE-ICON {
+    height: 38px;
+    left: 24px;
+    position: absolute;
+    top: 24px;
+    width: 38px;
+  }
+  
+  .bentolio .WORK {
+    background-color: var(--collection-1-primary);
+    border-radius: var(--collection-1-rounded);
+    height: 726px;
+    left: 968px;
+    overflow: hidden;
+    position: absolute;
+    top: 149px;
+    width: 447px;
+  }
+  
+  .bentolio .ITEM {
+    height: 30px;
+    left: 24px;
+    position: absolute;
+    top: 651px;
+    width: 82px;
+  }
+  
+  .bentolio .text-wrapper-3 {
+    color: var(--collection-1-text);
+    font-family: "Gilroy-Medium", Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .bentolio .ITEM-1 {
+    height: 71px;
+    left: 24px;
+    position: absolute;
+    top: 651px;
+    width: 401px;
+  }
+
+  .bentolio .ITEM-2 {
+    height: 71px;
+    left: 24px;
+    position: absolute;
+    top: 538px;
+    width: 401px;
+  }
+  
+  .bentolio .BORDER {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 69px;
+    width: 399px;
+  }
+  
+  .bentolio .ITEM-3 {
+    height: 72px;
+    left: 24px;
+    position: absolute;
+    top: 425px;
+    width: 401px;
+  }
+  
+  .bentolio .img {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 70px;
+    width: 399px;
+  }
+  
+  .bentolio .ITEM-4 {
+    height: 350px;
+    left: 24px;
+    position: absolute;
+    top: 34px;
+    width: 401px;
+  }
+  
+  .bentolio .BORDER-2 {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 348px;
+    width: 399px;
+  }
+  
+  .bentolio .IMAGE {
+    border-radius: 16px;
+    height: 269px;
+    left: 0;
+    position: absolute;
+    top: 51px;
+    width: 399px;
+  }
+  
+  .bentolio .ARROW-ICON {
+    height: 26px;
+    left: 373px;
+    position: absolute;
+    top: 2px;
+    width: 26px;
+  }
+  
+  .bentolio .PORTRAIT {
+    border-radius: var(--collection-1-rounded);
+    height: 476px;
+    left: 614px;
+    position: absolute;
+    top: 149px;
+    width: 330px;
+    overflow: hidden;
+  }
+  
+  .bentolio .PORTRAIT img {
+    border-radius: var(--collection-1-rounded);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .bentolio .SLOGAN-INTRO {
+    background-color: var(--collection-1-primary);
+    border-radius: var(--collection-1-rounded);
+    height: 479px;
+    left: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 146px;
+    width: 565px;
+  }
+  
+  .bentolio .artist-redefining {
+    color: var(--collection-1-text);
+    font-family: "Gilroy-Bold", Helvetica;
+    font-size: 56px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 56.0px;
+    position: absolute;
+    top: 130px;
+    width: 475px;
+  }
+  
+  .bentolio .span {
+    font-weight: 700;
+  }
+  
+  .bentolio .text-wrapper-4 {
+    font-family: "Gilroy-LightItalic", Helvetica;
+    font-style: italic;
+    font-weight: 300;
+  }
+  
+  .bentolio .FLOWER-ICON {
+    height: 119px;
+    left: 416px;
+    position: absolute;
+    top: 34px;
+    width: 119px;
+  }
+  
+  .bentolio .HEADER {
+    background-color: var(--collection-1-primary);
+    border-radius: var(--collection-1-rounded);
+    height: 101px;
+    left: 24px;
+    overflow: hidden;
+    position: relative;
+    top: 24px;
+    width: 1392px;
+  }
+  
+  .bentolio .NAV {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 24px;
+    position: relative;
+    top: 42px;
+    width: 1343px;
+  }
+  
+  .bentolio .LOGO {
+    color: var(--collection-1-text);
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .bentolio .text-wrapper-5 {
+    font-weight: 300;
+  }
+  
+  .bentolio .text-wrapper-6 {
+    font-family: "Gilroy-Medium", Helvetica;
+    font-weight: 500;
+  }
+  
+  .bentolio .PAGE-LINKS {
+    height: 11px;
+    position: relative;
+    width: 303px;
+  }
+  
+  .bentolio .frame {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 303px;
+  }
+  
+  .bentolio .text-wrapper-7 {
+    color: var(--collection-1-text);
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .bentolio .elara-border {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 69px;
+    width: 399px;
+    background-color: var(--collection-1-secondary);
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .portrait-fade {
+    opacity: 0;
+    transition: opacity 1.2s ease-out;
+  }
+  
+  .portrait-fade.visible {
+    opacity: 1;
+  }
+  
+  .separator-border {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .separator-border img {
+    width: 20%;
+    height: auto;
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .arrow-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    align-items: flex-start;
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .project-thumbnail {
+    width: 399px;
+    height: 269px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 24px;
+  }
+  
+  .project-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .PAGE-LINKS a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+  
+  .PAGE-LINKS a:hover {
+    opacity: 0.7;
+  }
+  
+  .frame {
+    display: flex;
+    gap: 32px; /* Adjust spacing between links */
+  }
+  
+  .SOCIALS .LINKS a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+  
+  .SOCIALS .LINKS a:hover {
+    opacity: 0.7;
+  }
+  
+  /* Common hover transition for all sections */
+  .PORTRAIT, .SOCIALS, .CONTACT, .ABOUT, .WORK, .SLOGAN-INTRO, .HEADER {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    background-color: #FFE4E4; /* Your original pink color */
+  }
+  
+  /* Individual hover effects */
+  .PORTRAIT:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    background-color: #FFD4D4; /* Darker pink */
+  }
+  
+  .SOCIALS:hover {
+    transform: translateY(-4px);
+    background-color: #FFD4D4;
+  }
+  
+  .CONTACT:hover {
+    transform: translateY(-4px);
+    background-color: #FFD4D4;
+  }
+  
+  .ABOUT:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    background-color: #FFD4D4;
+  }
+  
+  .WORK:hover {
+    transform: translateY(-4px);
+    background-color: #FFD4D4;
+  }
+  
+  .SLOGAN-INTRO:hover {
+    transform: scale(1.01);
+    background-color: #FFD4D4;
+  }
+  
+  /* Header might need a different hover effect since it's at the top */
+  .HEADER:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Project items hover effect */
+  .project-item:hover {
+    background-color: #FFD4D4;
+    border-radius: 12px;
+    padding: 8px;
+    margin: -8px;  /* Compensate for padding */
+  }
+  
+  .project-item:hover .project-title {
+    transform: translateX(8px);
+  }
+  
+  .project-item:hover .arrow-icon {
+    transform: translate(4px, -4px) rotate(-45deg);
+  }
+  
+  .project-thumbnail:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Smooth transitions for all elements */
+  .project-item, .project-title, .arrow-icon {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Optional: Add subtle text color adjustment on hover */
+  .project-item:hover .project-title,
+  .SOCIALS:hover .text-wrapper,
+  .CONTACT:hover .text-wrapper-2,
+  .ABOUT:hover p,
+  .SLOGAN-INTRO:hover p {
+    color: rgba(0, 0, 0, 0.8); /* Slightly darker text */
+  }
+  
+  /* Arrow icon hover animation */
+  .project-header:hover .arrow-icon {
+    transform: rotate(-45deg) translate(2px, -2px);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Social links hover effect */
+  .SOCIALS .LINKS a:hover {
+    color: #ad0101;
+    
+    display: inline-block;
+  }
+  
+  /* Contact section hover effect */
+  .CONTACT:hover .ARROW {
+    transform: translateX(8px);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Flower icon rotation on hover */
+  .SLOGAN-INTRO:hover .FLOWER-ICON {
+    transform: rotate(45deg);
+    transition: transform 0.5s ease;
+  }
+  
+  .fade-in-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-in-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-in-down {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in-down.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
